@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "663649d97643acd004de8b693d41fe78",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3873,6 +3873,37 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
+            "name": "sempro/phpunit-pretty-print",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sempro/phpunit-pretty-print.git",
+                "reference": "cc8b905aaecbf34279ddb435535d083db967bc75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sempro/phpunit-pretty-print/zipball/cc8b905aaecbf34279ddb435535d083db967bc75",
+                "reference": "cc8b905aaecbf34279ddb435535d083db967bc75",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "phpunit/phpunit": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sempro\\PHPUnitPrettyPrinter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Prettify PHPUnit output",
+            "time": "2018-02-13T10:31:11+00:00"
         },
         {
             "name": "theseer/tokenizer",
